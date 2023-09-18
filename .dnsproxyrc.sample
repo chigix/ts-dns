@@ -1,0 +1,4 @@
+[domains]
+  localhost     = 10.1.0.1
+  acme.com     = 10.1.0.1
+  .acme.com     = 10.1.0.1

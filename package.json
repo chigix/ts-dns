@@ -6,6 +6,10 @@
   "private": true,
   "dependencies": {
     "axios": "^1.0.0",
+    "debug": "^4.3.4",
+    "native-dns-packet": "^0.1.1",
+    "rc": "^1.2.8",
+    "supports-color": "^9.4.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -16,8 +20,10 @@
     "@nx/linter": "16.7.4",
     "@nx/node": "16.7.4",
     "@nx/workspace": "16.7.4",
+    "@types/debug": "^4.1.8",
     "@types/jest": "^29.4.0",
     "@types/node": "~18.7.1",
+    "@types/rc": "^1.2.1",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
     "esbuild": "^0.17.17",
