@@ -25,8 +25,6 @@ d.push('dnsproxy:error');
 opts.logging = d.join(',');
 debug.enable(opts.logging);
 
-console.log(opts);
-
 const logdebug = debug('dnsproxy:debug');
 const logquery = debug('dnsproxy:query');
 const logerror = debug('dnsproxy:error');
